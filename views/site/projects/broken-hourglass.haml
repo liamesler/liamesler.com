@@ -1,9 +1,29 @@
-.content
+.content.slider
   %article
-    :markdown
-      # Broken Hourglass
-      The Broken Hourglass was a Black Isle style RPG in development by indie developer Planewalker Games.
+    %h1 The Broken Hourglass
+    .slider
+      %ul.slider-controls
+        %li.bordered
+          %img{ src: '/images/projects/creatures/aquatilis_1_t.jpg', alt: '' }
+        %li.bordered
+          %img{ src: '/images/projects/tbh/tbh_screenshot1_t.jpg', alt: '' }
+        %li.bordered
+          %img{ src: '/images/projects/tbh/tbh_screenshot2_t.jpg', alt: '' }
+      %ul.slides
+        %li
+          .bordered.large.right
+            %img{ src: '/images/projects/tbh/tbhtransparent.png', alt: 'The Broken Hourglass' }
+          .description
+		    :markdown
+		      The Broken Hourglass was a Black Isle style RPG in development by indie developer Planewalker Games.
 
-      During my time working on The Broken Hourglass, I learnt the game's internal scripting system and implemented music throughout. I was also tasked to create ambient atmospheric tracks for each area-type in the game as well as creating and implementing sound effects.
+		      During my time working on The Broken Hourglass, I learnt the game's internal scripting system and implemented music throughout. I was also tasked to create ambient atmospheric tracks for each area-type in the game as well as creating and implementing sound effects.
 
-      Unfortunately, the project was cancelled in 2011.
+		      Unfortunately, the project was cancelled in 2011.
+        %li
+          .bordered.large
+            %img{ src: '/images/projects/tbh/tbh_screenshot1.jpg', alt: 'The Broken Hourglass' }
+        %li
+          .bordered.large
+            %img{ src: '/images/projects/tbh/tbh_screenshot2.jpg', alt: 'The Broken Hourglass' }
+  .clear
